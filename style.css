@@ -1,0 +1,241 @@
+body {
+    padding-right: 0px !important;
+}
+
+
+
+.swal2-container {
+    z-index: 10000 !important;
+}
+
+.form-box {
+    width: 60px;
+    height: 60px;
+    background-color: #3047ec;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 9999;
+
+}
+.autocomplete-items{
+    margin-left: 12px;
+    margin-top: 2px;
+}
+
+.form-modal {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(0.5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9998;
+}
+
+.form-style {
+    /* position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%); */
+    margin: 5rem auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-inside p,
+h5 {
+    margin: auto;
+    transform: translate(0, -100%);
+}
+
+.header-inside h6 {
+    font-weight: 600;
+}
+
+.dp-image {
+    width: 100px;
+    height: 100px;
+    transform: translate(0, -45%);
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.flex label {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.721);
+
+}
+
+.company {
+    display: none;
+}
+
+.inPerson {
+    display: none;
+}
+
+.inPerson2 {
+    display: none;
+}
+
+input[type='checkbox'] {
+    opacity: 1 !important;
+    position: relative !important;
+    pointer-events: all !important;
+}
+
+@media screen and (max-width: 700px) {
+    .form-style {
+        width: 80%;
+    }
+
+    input {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    input {
+        font-size: 12px !important;
+    }
+}
+
+/* .form-style input[type="text"],
+input[type="email"] {
+    width: 50%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: rgb(231, 232, 235);
+    border: none;
+
+}
+
+.form-style input[type="submit"] {
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: #3047ec;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-style input[type="submit"]:active,
+input[type="submit"]:focus {
+    background-color: #3047ec !important;
+} */
+
+
+.icon-svg {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32" fill="white"><path d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path></svg>');
+    background-repeat: no-repeat;
+    height: 60%;
+    background-position: center center;
+    margin-top: 12px;
+}
+
+
+/* Own  */
+.input-field {
+    margin: 1rem 2rem;
+
+}
+
+
+.input-field input {
+    padding: 6px 12px;
+    border: 1px solid #d2cec6;
+    border-radius: 4px;
+
+
+}
+
+
+.input-field input:active,
+input:focus {
+    border-bottom: none;
+    outline: 1px solid #4c78f3;
+    /* outline: none; */
+}
+
+@media screen and (min-width: 701px) {
+    .plugin-full {
+        display: block;
+        width: 30rem;
+
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .input-field {
+        margin: 0.5rem 0rem;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width: 1000px) {
+    .input-field {
+        margin: 0.5rem -1rem;
+    }
+}
+
+.step {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.checkbox_spacing {
+    margin-left: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .checkbox_spacing {
+        margin-left: 5px;
+    }
+}
+
+/* main index */
+.u-icon-circle {
+    margin: auto !important;
+}
+
+.center-text {
+    margin: auto !important;
+    margin-top: 30px !important;
+}
+
+.about-joan {
+    margin: auto !important;
+    margin-bottom: -2rem !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .about-joan {
+        display: none;
+    }
+}
+
+/* main index */
